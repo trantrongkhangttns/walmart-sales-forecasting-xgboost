@@ -21,19 +21,15 @@ The project uses **WMAE** (Weighted Mean Absolute Error), where holiday weeks ar
 | **XGBoost (Default)** | 1337.50 | ~25.1% |
 | **XGBoost (Optuna Tuned + Full Data)** | **1200.60** | **~32.7%** |
 
-## Repository Structure
+## Project Structure
 
-\`\`\`text
-walmart-sales-forecasting-xgboost/
-│
-├── Data/                   # Contains README with dataset download links
-├── Model/                  # Exported final XGBoost model (.pkl)
-├── Notebook/               # Jupyter notebook with EDA, Training, and Tuning
-├── Submission/             # Final predictions for Kaggle submission (.csv)
-├── .gitignore
-├── LICENSE
-└── README.md               # Project documentation
-\`\`\`
+- Data/
+- Model/
+- Notebook/
+- Submission/
+- .gitignore
+- LICENSE
+- README.md
 
 ## Tech Stack
 * **Modeling & Tuning:** XGBoost, Optuna, Scikit-Learn
