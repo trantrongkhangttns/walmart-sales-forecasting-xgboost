@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore data files to prevent GitHub repo bloat
+Data/*.csv
+Data/*.zip
